@@ -9,7 +9,7 @@ def disphoto(path):
     #画像をTkinterで表示できるように変換する
     imageData = PIL.ImageTk.PhotoImage(newImage)
     imageLabel.configure(image = imageData)
-    imageLabel.image = imageData
+    imageLabel.image = imageData  
     #画像を表示す
 
 def openfile():
