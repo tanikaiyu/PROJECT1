@@ -10,7 +10,7 @@ def disphoto(path):
     imageData = PIL.ImageTk.PhotoImage(newImage)
     imageLabel.configure(image = imageData)
     imageLabel.image = imageData
-    #画像を表示する
+    #画像を表示す
 
 def openfile():
     path = fd.askopenfilename()
