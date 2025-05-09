@@ -1,8 +1,6 @@
 import tkinter as tk
 import random
 import tkinter.filedialog as fd
-import PIL.Image as Image
-import PIL.ImageTk as ImageTk
 
 
 # 単語データのサンプル
